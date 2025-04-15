@@ -8,7 +8,7 @@
 
 PyCodeLens is a powerful Python code analysis tool designed specifically to help developers work with Large Language Models (LLMs) on complex codebases. Stop overwhelming your LLM with thousands of lines of code - feed it structured insights instead.
 
-![screenshot](screenshot/pycodelens_screenshot.png)
+<img src="screenshot/pycodelens_screenshot.png" alt="screenshot" width="600" />
 
 ## 🌟 Why PyCodeLens?
 
