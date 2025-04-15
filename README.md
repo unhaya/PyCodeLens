@@ -38,7 +38,7 @@ Ever tried asking Claude or GPT to understand a large codebase? Painful, right?
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-unhaya/pycodelens.git
+git clone https://github.com/unhaya/pycodelens.git
 
 # Navigate to the project directory
 cd pycodelens
@@ -47,7 +47,7 @@ cd pycodelens
 pip install -r requirements.txt
 
 # Run the application
-python main.py
+python "pycodelens(main).py"
 ```
 
 ## 📋 Quick Usage
