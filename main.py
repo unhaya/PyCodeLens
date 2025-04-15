@@ -1,7 +1,3 @@
-"""プレースフォルダ
-[json出力]
-[解析結果]
-"""
 import ast
 import astroid
 import json
