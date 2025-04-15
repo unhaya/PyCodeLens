@@ -78,9 +78,9 @@ Results are organized into a clean, structured JSON format that:
 ## 🏗️ Project Structure
 
 ```
-code_analysis/
-├── code_analysis.py       # Core analysis functionality
-└── simple_json_converter.py  # JSON conversion utilities
+PyCodeLens/
+├── main.py			# Core analysis functionality
+└── simple_json_converter.py	# JSON conversion utilities
 ```
 
 ### Main Components
