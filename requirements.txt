@@ -1,0 +1,4 @@
+astroid
+pillow
+ttkthemes
+pyperclip
