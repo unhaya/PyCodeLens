@@ -73,7 +73,7 @@ These features help you quickly navigate through the codebase and customize whic
 ## 🖼️ Screenshots
 
 <img src="screenshot/pycodelens_screenshot.png" alt="スクリーンショット" width="600" />
-<img src="screenshot/2025-04-15_20-13-25.mp4" alt="スクリーンショット" width="600" />
+<img src="screenshot/Videotogif (1).gif" alt="スクリーンショット" width="600" />
 
 ## 🏗️ Project Structure
 
