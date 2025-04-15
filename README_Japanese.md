@@ -70,6 +70,8 @@ python "main.py"
 
 ## 🖼️ スクリーンショット
 <img src="screenshot/pycodelens_screenshot.png" alt="スクリーンショット" width="600" />
+　
+<img src="screenshot/Videotogif (1).gif" alt="スクリーンショット" width="600" />
 
 ## 🏗️ プロジェクト構造
 
