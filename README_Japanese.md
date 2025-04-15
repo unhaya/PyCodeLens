@@ -1,6 +1,6 @@
 # 🔍 PyCodeLens: LLM対応Pythonコード解析ツール
 
-[![GitHub Stars](https://img.shields.io/github/stars/your-username/pycodelens?style=social)](https://github.com/your-username/pycodelens)
+[![GitHub Stars](https://img.shields.io/github/stars/unhaya/pycodelens?style=social)](https://github.com/unhaya/pycodelens)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/python-3.12%2B-blue)](https://www.python.org/downloads/)
 
