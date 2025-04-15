@@ -8,8 +8,6 @@
 
 PyCodeLensは、開発者が大規模言語モデル（LLM）と複雑なコードベースで作業するために特別に設計された強力なPythonコード分析ツールです。何千行ものコードでLLMを圧倒するのではなく、代わりに構造化された洞察を提供しましょう。
 
-<img src="screenshot/pycodelens_screenshot.png" alt="スクリーンショット" width="600" />
-
 ## 🌟 なぜPyCodeLensなのか？
 
 ClaudeやGPTに大規模なコードベースを理解させようとしたことはありますか？大変ですよね？
@@ -73,11 +71,7 @@ PyCodeLensは複数の分析戦略を使用します：
 - LLMのトークン効率を最適化
 
 ## 🖼️ スクリーンショット
-
-<div align="center">
-  <img src="https://via.placeholder.com/400x250?text=Directory+Tree" alt="ディレクトリツリー" style="margin-right:10px"/>
-  <img src="https://via.placeholder.com/400x250?text=Analysis+Results" alt="分析結果"/>
-</div>
+<img src="screenshot/pycodelens_screenshot.png" alt="スクリーンショット" width="600" />
 
 ## 🏗️ プロジェクト構造
 
