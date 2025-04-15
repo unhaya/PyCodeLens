@@ -125,9 +125,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 💌 Contact
 
-Your Name - [@haasiy](https://x.com/haassiy) - haasiy@gmail.com
+[@haasiy](https://x.com/haassiy) - haasiy@gmail.com
 
-Project Link: [https://github.com/unhaya/pycodelens/](https://github.com/unhaya/pycodelens/)
+[https://github.com/unhaya/pycodelens/](https://github.com/unhaya/pycodelens/)
 
 ---
 
