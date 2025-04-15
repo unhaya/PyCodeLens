@@ -76,15 +76,9 @@ PyCodeLensは複数の分析戦略を使用します：
 ## 🏗️ プロジェクト構造
 
 ```
-pycodelens/
-├── screenshot/
-│   └── pycodelens_screenshot.png
-├── LICENSE.txt
-├── README.md
-├── README_Japanese.md
-├── main.py
-├── requirements.txt
-└── simple_json_converter.py
+PyCodeLens/
+├── main.py			# Core analysis functionality
+└── simple_json_converter.py	# JSON conversion utilities
 ```
 
 ### 主要コンポーネント
