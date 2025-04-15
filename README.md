@@ -1,129 +1,129 @@
-# 🔍 PyCodeLens: LLM向けPythonコード分析ツール
+# 🔍 PyCodeLens: LLM-Ready Python Code Analyzer
 
 [![GitHub Stars](https://img.shields.io/github/stars/unhaya/pycodelens?style=social)](https://github.com/unhaya/pycodelens)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/python-3.12%2B-blue)](https://www.python.org/downloads/)
 
-> **LLMが複雑なコードベースに直面したとき、PyCodeLensがその目となります。**
+> **When LLMs face complex codebases, PyCodeLens becomes their eyes.**
 
-PyCodeLensは、開発者が大規模言語モデル（LLM）と複雑なコードベースで作業するために特別に設計された強力なPythonコード分析ツールです。何千行ものコードでLLMを圧倒するのではなく、代わりに構造化された洞察を提供しましょう。
+PyCodeLens is a powerful Python code analysis tool designed specifically to help developers work with Large Language Models (LLMs) on complex codebases. Stop overwhelming your LLM with thousands of lines of code - feed it structured insights instead.
 
-## 🌟 なぜPyCodeLensなのか？
+<img src="screenshot/pycodelens_screenshot.png" alt="screenshot" width="600" />
 
-ClaudeやGPTに大規模なコードベースを理解させようとしたことはありますか？大変ですよね？
+## 🌟 Why PyCodeLens?
 
-**問題点:** LLMにはトークン制限があり、大規模な複数ファイルのコードベースの処理に苦労します
-**解決策:** PyCodeLensはLLMが必要とする重要な構造情報を抽出します
+Ever tried asking Claude or GPT to understand a large codebase? Painful, right?
 
-## 🚀 主な機能
+**Problem:** LLMs have token limits and struggle with large, multi-file codebases
+**Solution:** PyCodeLens extracts the crucial structural information your LLM needs
 
-- 🔄 **スマートなコードベース要約**: 複雑なPythonコードベースをLLMフレンドリーなJSONに変換
-- 🧩 **クラス＆メソッド分析**: すべてのクラス、メソッド、およびそれらの関係を抽出
-- 📊 **依存関係マッピング**: コールグラフとモジュールの依存関係を視覚化
-- 🌲 **ディレクトリ構造**: クリーンで操作可能なファイルツリーを提供
-- 🖥️ **UIインターフェース**: 分析を探索・エクスポートするための直感的なGUI
-- 📋 **クリップボード統合**: 結果を直接コピーしてLLMですぐに使用可能
-- 🔌 **拡張可能なアーキテクチャ**: より多くの言語や分析タイプの追加に対応
+## 🚀 Key Features
 
-## 💡 こんな方におすすめ
+- 🔄 **Smart Codebase Summaries**: Transforms complex Python codebases into LLM-friendly JSON
+- 🧩 **Class & Method Analysis**: Extracts all classes, methods, and their relationships
+- 📊 **Dependency Mapping**: Visualizes call graphs and module dependencies
+- 🌲 **Directory Structure**: Delivers clean, navigable file trees
+- 🖥️ **UI Interface**: Intuitive GUI for exploring and exporting analysis
+- 📋 **Clipboard Integration**: Copy results directly for immediate use with LLMs
+- 🔌 **Extensible Architecture**: Ready for adding more languages and analysis types
 
-- **LLM開発者**: Claude、GPTなどに構造化されたコードの洞察を提供
-- **オープンソース貢献者**: 新しいプロジェクトを素早く理解
-- **コードレビュアー**: プロジェクト構造の高レベルビューを取得
-- **Pythonの学習者**: 実世界のPythonプロジェクトの仕組みを視覚化
+## 💡 Perfect For
 
-## 🛠️ インストール方法
+- **LLM Developers**: Feed structured code insights to Claude, GPT, etc.
+- **Open Source Contributors**: Quickly understand new projects
+- **Code Reviewers**: Get high-level views of project structure
+- **Python Learners**: Visualize how real-world Python projects work
+
+## 🛠️ Installation
 
 ```bash
-# リポジトリをクローン
+# Clone the repository
 git clone https://github.com/unhaya/pycodelens.git
 
-# プロジェクトディレクトリに移動
+# Navigate to the project directory
 cd pycodelens
 
-# 依存関係をインストール
+# Install dependencies
 pip install -r requirements.txt
 
-# アプリケーションを実行
+# Run the application
 python "main.py"
 ```
 
-## 📋 クイック使用ガイド
+## 📋 Quick Usage
 
-1. PyCodeLensを起動
-2. Pythonファイルまたはディレクトリをインポート
-3. 構造化されたタブで分析結果を表示
-4. JSON出力をクリップボードにコピー
-5. お好みのLLMに直接貼り付けてコーディングの質問をする
+1. Launch PyCodeLens
+2. Import a Python file or directory
+3. View the analysis results in the structured tabs
+4. Copy the JSON output to clipboard
+5. Paste directly to your favorite LLM with your coding questions
 
-## 🔮 仕組み
+## 🔮 How It Works
 
-PyCodeLensは複数の分析戦略を使用します：
+PyCodeLens uses multiple analysis strategies:
 
-1. **AST分析**: Pythonコードの高速な構文解析
-2. **Astroid分析**: 型推論を伴う深い意味分析
-3. **コールグラフ生成**: モジュール間の関数呼び出しをマッピング
-4. **依存関係検出**: モジュール間の関係を識別
+1. **AST Analysis**: Fast syntactic parsing of Python code
+2. **Astroid Analysis**: Deep semantic analysis with type inference
+3. **Call Graph Generation**: Maps function calls across modules
+4. **Dependency Detection**: Identifies module relationships
 
-結果はクリーンで構造化されたJSON形式に整理され、以下のような特徴があります：
-- すべての重要な関係を維持
-- 不要な詳細を削除
-- LLMのトークン効率を最適化
+Results are organized into a clean, structured JSON format that:
+- Maintains all important relationships
+- Strips unnecessary details
+- Optimizes for LLM token efficiency
 
-## 🖼️ スクリーンショット
-<img src="screenshot/pycodelens_screenshot.png" alt="スクリーンショット" width="600" />
+## 🖼️ Screenshots
 
-## 🏗️ プロジェクト構造
+<div align="center">
+  <img src="https://via.placeholder.com/400x250?text=Directory+Tree" alt="Directory Tree" style="margin-right:10px"/>
+  <img src="https://via.placeholder.com/400x250?text=Analysis+Results" alt="Analysis Results"/>
+</div>
+
+## 🏗️ Project Structure
 
 ```
-pycodelens/
-├── screenshot/
-│   └── pycodelens_screenshot.png
-├── LICENSE.txt
-├── README.md
-├── README_Japanese.md
-├── main.py
-├── requirements.txt
-└── simple_json_converter.py
+code_analysis/
+├── code_analysis.py       # Core analysis functionality
+└── simple_json_converter.py  # JSON conversion utilities
 ```
 
-### 主要コンポーネント
+### Main Components
 
-- **ConfigManager**: アプリケーション設定と以前のセッションを処理
-- **CodeAnalyzer**: コード分析のための基本クラス
-- **AstroidAnalyzer**: Astroidによる深い意味分析
-- **DirectoryTreeView**: プロジェクトファイルをナビゲートするためのUI
-- **SyntaxHighlighter**: コード視覚化ヘルパー
-- **CodeAnalyzerApp**: メインアプリケーションUI
+- **ConfigManager**: Handles application settings and previous sessions
+- **CodeAnalyzer**: Base class for code analysis
+- **AstroidAnalyzer**: Deep semantic analysis with Astroid
+- **DirectoryTreeView**: UI for navigating project files
+- **SyntaxHighlighter**: Code visualization helper
+- **CodeAnalyzerApp**: Main application UI
 
-## 🚀 ロードマップ
+## 🚀 Roadmap
 
-- [ ] 追加のプログラミング言語のサポート（JavaScript、Java、C++）
-- [ ] 複数形式でのエクスポート（PDF、HTML、Markdown）
-- [ ] LLM API統合のためのプラグイン
-- [ ] ブラウザベースの分析のためのWebバージョン
-- [ ] 非常に大規模なコードベースのためのパフォーマンス最適化
-- [ ] 完全なテストカバレッジとCI/CDパイプライン
+- [ ] Support for additional programming languages (JavaScript, Java, C++)
+- [ ] Export results in multiple formats (PDF, HTML, Markdown)
+- [ ] Plugins for direct LLM API integration
+- [ ] Web version for browser-based analysis
+- [ ] Performance optimizations for very large codebases
+- [ ] Full test coverage and CI/CD pipeline
 
-## 👥 貢献
+## 👥 Contributing
 
-貢献は、オープンソースコミュニティをそのような素晴らしい学習、インスピレーション、創造の場にするものです。あなたの貢献は**大いに感謝されます**。
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-貢献方法：
+Here's how you can contribute:
 
-1. プロジェクトをフォーク
-2. 機能ブランチを作成（`git checkout -b feature/AmazingFeature`）
-3. 変更をコミット（`git commit -m 'Add some AmazingFeature'`）
-4. ブランチにプッシュ（`git push origin feature/AmazingFeature`）
-5. プルリクエストを開く
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-詳細は[CONTRIBUTING.md](CONTRIBUTING.md)ファイルを参照してください。
+See the [CONTRIBUTING.md](CONTRIBUTING.md) file for more details.
 
-## 📜 ライセンス
+## 📜 License
 
-このプロジェクトはMITライセンスの下でライセンスされています - 詳細は[LICENSE.txt](LICENSE.txt)ファイルを参照してください。
+This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
 
-## 💌 連絡先
+## 💌 Contact
 
 [@haasiy](https://x.com/haassiy) - haasiy@gmail.com
 
@@ -132,6 +132,6 @@ pycodelens/
 ---
 
 <p align="center">
-  <b>LLM開発コミュニティのために❤️を込めて作成</b><br>
-  <i>あなたのLLMにコード理解の恩恵を</i>
+  <b>Made with ❤️ for the LLM development community</b><br>
+  <i>Give your LLMs the gift of code understanding</i>
 </p>
