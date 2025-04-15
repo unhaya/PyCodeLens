@@ -125,9 +125,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 💌 Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
+Your Name - [@haasiy](https://x.com/haassiy) - haasiy@gmail.com
 
-Project Link: [https://github.com/your-username/pycodelens](https://github.com/your-username/pycodelens)
+Project Link: [https://github.com/unhaya/pycodelens/](https://github.com/unhaya/pycodelens/)
 
 ---
 
