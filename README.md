@@ -56,20 +56,19 @@ python "main.py"
 3. View the analysis results in the structured tabs
 4. Copy the JSON output to clipboard
 5. Paste directly to your favorite LLM with your coding questions
+6. Use right-click and Ctrl+click in the directory tree for additional options
 
-## 🔮 How It Works
+## 🖱️ Advanced Interface Tips
 
-PyCodeLens uses multiple analysis strategies:
+### Directory Tree Navigation
+- **Right-click**: Opens a context menu with options to:
+  - Open file in Explorer/Finder
+  - Open file with default application
+- **Ctrl+click**: Excludes the selected file or directory from analysis
+  - Excluded items appear grayed out
+  - Re-click to include them again in the analysis
 
-1. **AST Analysis**: Fast syntactic parsing of Python code
-2. **Astroid Analysis**: Deep semantic analysis with type inference
-3. **Call Graph Generation**: Maps function calls across modules
-4. **Dependency Detection**: Identifies module relationships
-
-Results are organized into a clean, structured JSON format that:
-- Maintains all important relationships
-- Strips unnecessary details
-- Optimizes for LLM token efficiency
+These features help you quickly navigate through the codebase and customize which parts should be included in the analysis.
 
 ## 🖼️ Screenshots
 
