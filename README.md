@@ -121,7 +121,7 @@ See the [CONTRIBUTING.md](CONTRIBUTING.md) file for more details.
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](license.txt) file for details.
+This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
 
 ## 💌 Contact
 
