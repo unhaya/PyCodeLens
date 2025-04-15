@@ -47,7 +47,7 @@ cd pycodelens
 pip install -r requirements.txt
 
 # Run the application
-python "pycodelens(main).py"
+python "main.py"
 ```
 
 ## 📋 Quick Usage
