@@ -38,7 +38,7 @@ Ever tried asking Claude or GPT to understand a large codebase? Painful, right?
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/pycodelens.git
+git clone https://github.com/your-unhaya/pycodelens.git
 
 # Navigate to the project directory
 cd pycodelens
