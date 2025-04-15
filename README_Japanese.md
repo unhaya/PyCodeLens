@@ -2,7 +2,7 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/your-username/pycodelens?style=social)](https://github.com/your-username/pycodelens)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python Version](https://img.shields.io/badge/python-3.7%2B-blue)](https://www.python.org/downloads/)
+[![Python Version](https://img.shields.io/badge/python-3.12%2B-blue)](https://www.python.org/downloads/)
 
 > **LLMが複雑なコードベースに直面したとき、PyCodeLensが彼らの目となります。**
 
