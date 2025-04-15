@@ -125,10 +125,9 @@ code_analysis/
 
 ## 💌 連絡先
 
-あなたの名前 - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
+[@haasiy](https://x.com/haassiy) - haasiy@gmail.com
 
-プロジェクトリンク: [https://github.com/your-username/pycodelens](https://github.com/your-username/pycodelens)
-
+[https://github.com/unhaya/pycodelens/](https://github.com/unhaya/pycodelens/)
 ---
 
 <p align="center">
