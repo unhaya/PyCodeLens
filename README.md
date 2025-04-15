@@ -4,16 +4,15 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/python-3.12%2B-blue)](https://www.python.org/downloads/)
 
-> **When LLMs face complex codebases, PyCodeLens becomes their eyes.**
+> **When LLMs face complex codebases, PyCodeLens becomes their eyes 👀**
 
-PyCodeLens is a powerful Python code analysis tool designed specifically to help developers work with Large Language Models (LLMs) on complex codebases. Stop overwhelming your LLM with thousands of lines of code - feed it structured insights instead.
-
+PyCodeLens is a powerful Python code analysis tool specifically designed to help developers work with Large Language Models (LLMs) on complex codebases. Stop overwhelming your LLM with thousands of lines of code - feed it structured insights instead.
 
 ## 🌟 Why PyCodeLens?
 
 Ever tried asking Claude or GPT to understand a large codebase? Painful, right?
 
-**Problem:** LLMs have token limits and struggle with large, multi-file codebases
+**Problem:** LLMs have token limits and struggle with large, multi-file codebases  
 **Solution:** PyCodeLens extracts the crucial structural information your LLM needs
 
 ## 🚀 Key Features
@@ -24,14 +23,14 @@ Ever tried asking Claude or GPT to understand a large codebase? Painful, right?
 - 🌲 **Directory Structure**: Delivers clean, navigable file trees
 - 🖥️ **UI Interface**: Intuitive GUI for exploring and exporting analysis
 - 📋 **Clipboard Integration**: Copy results directly for immediate use with LLMs
-- 🔌 **Extensible Architecture**: Ready for adding more languages and analysis types
+- 🔌 **Extensible Architecture**: Ready for adding more languages and analysis types (in development)
 
 ## 💡 Perfect For
 
-- **LLM Developers**: Feed structured code insights to Claude, GPT, etc.
+- **LLM Developers**: Feed structured code overviews to Claude, GPT, etc.
 - **Open Source Contributors**: Quickly understand new projects
 - **Code Reviewers**: Get high-level views of project structure
-- **Python Learners**: Visualize how real-world Python projects work
+- **Python Learners**: Better understand how Python projects on GitHub work
 
 ## 🛠️ Installation
 
@@ -72,8 +71,9 @@ These features help you quickly navigate through the codebase and customize whic
 
 ## 🖼️ Screenshots
 
-<img src="screenshot/pycodelens_screenshot.png" alt="スクリーンショット" width="600" />
-<img src="screenshot/Videotogif (1).gif" alt="スクリーンショット" width="600" />
+<img src="screenshot/pycodelens_screenshot.png" alt="Screenshot" width="600" />
+
+<img src="screenshot/Videotogif (1).gif" alt="Demo GIF" width="600" />
 
 ## 🏗️ Project Structure
 
@@ -103,14 +103,14 @@ PyCodeLens/
 
 ## 👥 Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Open source thrives on community collaboration. We warmly welcome your contributions to this project!
 
 Here's how you can contribute:
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
 See the [CONTRIBUTING.md](CONTRIBUTING.md) file for more details.
