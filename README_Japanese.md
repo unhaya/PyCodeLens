@@ -111,8 +111,6 @@ PyCodeLens/
 4. ブランチにプッシュ（`git push origin feature/AmazingFeature`）
 5. プルリクエストを開く
 
-詳細は[CONTRIBUTING.md](CONTRIBUTING.md)ファイルを参照してください。
-
 ## 📜 ライセンス
 
 このプロジェクトはMITライセンスの下でライセンスされています - 詳細は[LICENSE.txt](LICENSE.txt)ファイルを参照してください。
